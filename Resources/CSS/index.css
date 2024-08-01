@@ -1,0 +1,70 @@
+body {
+  background-color: black;
+}
+
+.navdiv{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-list {
+  background-color: black;
+  margin: 0;
+  padding: rem 0;
+}
+
+.nav-list li{
+  display:inline-block;
+}
+
+.nav-item {
+  list-style: none;
+  margin-right: 4rem;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: gray;
+  font-size: 1.5rem;
+}
+
+.nav-item a:hover {
+  color: darkslategray;
+  transition:all 200ms ease-in;
+}
+
+.nav-logo {
+  margin-left: 3rem;
+}
+
+.nav-logo img {
+ height: 7rem;
+}
+
+.grid {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+  margin-left:5rem;
+}
+
+.grid img {
+  width: 20rem;
+  height: 15rem;
+}
+
+@media only screen and (max-width: 1024px){
+  .br {
+    color: yellow;
+  }
+}
+
+@media only screen and (max-width: 768px){
+  .br {
+    color: red;
+  }
+}
